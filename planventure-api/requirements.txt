@@ -3,3 +3,19 @@ flask==2.3.3
 flask-sqlalchemy==3.1.1
 flask-cors==4.0.0
 python-dotenv==1.0.0
+
+# Authentication & Security
+flask-jwt-extended==4.5.3
+bcrypt==4.0.1
+email-validator==2.0.0
+
+# Database Migrations
+Flask-Migrate==4.0.5
+alembic==1.12.0
+
+# Production Server
+gunicorn==21.2.0
+
+# Testing
+pytest==7.4.2
+pytest-cov==4.1.0
